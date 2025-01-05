@@ -1,0 +1,17 @@
+{% extends "base.html"%}
+{% block start %}
+<div class="container">
+    {% comment %} <style>
+        h3{
+            margin-top:80px;
+            margin-left:140px;
+            margin-bottom:200px; 
+        }
+    </style> {% endcomment %}
+    <h3 text-center>Thank You For Submit the Quiz!</h3>
+   
+    Result here : <a href="/results/{{id}}"><button class="btn waves-red" type="submit" name="submit">Result</button></a>
+    
+    <p>Return Back To<a href="/"> Home click here</a> </p>
+</div>
+{% endblock %}
